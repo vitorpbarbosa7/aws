@@ -7,3 +7,4 @@ venv
 *.gz
 *.tar
 ./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
+./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
