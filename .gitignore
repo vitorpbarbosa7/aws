@@ -1,0 +1,9 @@
+venv
+.venv
+*.venv
+*venv
+*.zip
+./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
+*.gz
+*.tar
+./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
