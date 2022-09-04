@@ -28,7 +28,7 @@ def predict(event, context):
 
     predictedPrice = model.predict(data)[0] * 100000
     predictedPrice = round(predictedPrice, 2)
-    body['predictedPrie'] = predictedPrice
+    body['predictedPrice'] = predictedPrice
 
     response = {
         "statusCode": 200,
@@ -40,3 +40,28 @@ def predict(event, context):
     }
 
     return response
+
+def do_main():
+    event = {
+        'queryStringParameters': {
+            'medInc': 200000,
+            'houseAge': 10,
+            'aveRooms': 4,
+            'aveBedrms': 1,
+            'population': 800,
+            'aveOccup': 3,
+            'latitude': 37.54,
+            'longitude': -121.72
+        }
+    }
+
+    response = predict(event, context=None)
+    body = json.loads(response['body'])
+    print(f"Price: {body['predictedPrice']}")
+
+
+    with open('event.json', 'w') as event_file:
+        event_file.write(json.dumps(event))
+
+
+do_main()
