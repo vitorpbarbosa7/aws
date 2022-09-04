@@ -1,0 +1,112 @@
+{
+    "message": "Go Serverless v1.0! Your Lambda function executed successfully!",
+    "input": {
+        "resource": "/hellopath",
+        "path": "/hellopath",
+        "httpMethod": "GET",
+        "headers": {
+            "Accept": "*/*",
+            "CloudFront-Forwarded-Proto": "https",
+            "CloudFront-Is-Desktop-Viewer": "true",
+            "CloudFront-Is-Mobile-Viewer": "false",
+            "CloudFront-Is-SmartTV-Viewer": "false",
+            "CloudFront-Is-Tablet-Viewer": "false",
+            "CloudFront-Viewer-ASN": "22085",
+            "CloudFront-Viewer-Country": "BR",
+            "Host": "m5t90abrlf.execute-api.sa-east-1.amazonaws.com",
+            "User-Agent": "curl/7.78.0",
+            "Via": "2.0 8d85241e1702eeaa52194b6b8061e194.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Id": "Wb0gpXeFkQF8KrC5W9ptIR1t7vtb7iDV0u7MoaS1op7Sa5MUM931Aw==",
+            "X-Amzn-Trace-Id": "Root=1-6314b431-528627346d3474c85750d5ff",
+            "X-Forwarded-For": "177.58.242.58, 15.158.19.15",
+            "X-Forwarded-Port": "443",
+            "X-Forwarded-Proto": "https"
+        },
+        "multiValueHeaders": {
+            "Accept": [
+                "*/*"
+            ],
+            "CloudFront-Forwarded-Proto": [
+                "https"
+            ],
+            "CloudFront-Is-Desktop-Viewer": [
+                "true"
+            ],
+            "CloudFront-Is-Mobile-Viewer": [
+                "false"
+            ],
+            "CloudFront-Is-SmartTV-Viewer": [
+                "false"
+            ],
+            "CloudFront-Is-Tablet-Viewer": [
+                "false"
+            ],
+            "CloudFront-Viewer-ASN": [
+                "22085"
+            ],
+            "CloudFront-Viewer-Country": [
+                "BR"
+            ],
+            "Host": [
+                "m5t90abrlf.execute-api.sa-east-1.amazonaws.com"
+            ],
+            "User-Agent": [
+                "curl/7.78.0"
+            ],
+            "Via": [
+                "2.0 8d85241e1702eeaa52194b6b8061e194.cloudfront.net (CloudFront)"
+            ],
+            "X-Amz-Cf-Id": [
+                "Wb0gpXeFkQF8KrC5W9ptIR1t7vtb7iDV0u7MoaS1op7Sa5MUM931Aw=="
+            ],
+            "X-Amzn-Trace-Id": [
+                "Root=1-6314b431-528627346d3474c85750d5ff"
+            ],
+            "X-Forwarded-For": [
+                "177.58.242.58, 15.158.19.15"
+            ],
+            "X-Forwarded-Port": [
+                "443"
+            ],
+            "X-Forwarded-Proto": [
+                "https"
+            ]
+        },
+        "queryStringParameters": null,
+        "multiValueQueryStringParameters": null,
+        "pathParameters": null,
+        "stageVariables": null,
+        "requestContext": {
+            "resourceId": "a9wqjh",
+            "resourcePath": "/hellopath",
+            "httpMethod": "GET",
+            "extendedRequestId": "X8EXsEqnmjQFmhA=",
+            "requestTime": "04/Sep/2022:14:20:33 +0000",
+            "path": "/dev/hellopath",
+            "accountId": "455290083799",
+            "protocol": "HTTP/1.1",
+            "stage": "dev",
+            "domainPrefix": "m5t90abrlf",
+            "requestTimeEpoch": 1662301233013,
+            "requestId": "4d2b49c4-655c-439f-87bf-7a23b506bb0e",
+            "identity": {
+                "cognitoIdentityPoolId": null,
+                "accountId": null,
+                "cognitoIdentityId": null,
+                "caller": null,
+                "sourceIp": "177.58.242.58",
+                "principalOrgId": null,
+                "accessKey": null,
+                "cognitoAuthenticationType": null,
+                "cognitoAuthenticationProvider": null,
+                "userArn": null,
+                "userAgent": "curl/7.78.0",
+                "user": null
+            },
+            "domainName": "m5t90abrlf.execute-api.sa-east-1.amazonaws.com",
+            "apiId": "m5t90abrlf"
+        },
+        "body": null,
+        "isBase64Encoded": false
+    }
+}
