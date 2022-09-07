@@ -15,3 +15,5 @@ node_modules/*
 ./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
 ./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
 ./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
+./sagemakercourse/DataLake/CustomerReview/customer_reviews_with_sentiment_compressed.txt.gz
+./.git/objects/pack/pack-0e7b518b071f87b43bd8915a18f3ce486443bfd8.pack
