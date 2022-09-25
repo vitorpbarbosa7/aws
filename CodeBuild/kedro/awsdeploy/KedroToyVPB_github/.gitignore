@@ -1,0 +1,6 @@
+*.csv
+*.parquet
+*.pq
+*.venv
+.venv
+

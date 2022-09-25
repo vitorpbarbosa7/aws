@@ -1,0 +1,18 @@
+version: 0.2
+phases:  
+ 
+  install: 
+    runtime-version: 
+      python: 3.9
+  
+  build:
+    commands:
+      - python3 -m pip install kedro==0.18.0
+      - pwd
+      - ls -lha 
+
+  post_build:
+    commands:
+      - ls -lha
+      - pwd
+      - sh entrypoint.sh
