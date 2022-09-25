@@ -1,3 +1,7 @@
+keys
+*.pub
+*.pem
+*.der
 venv
 .venv
 **/**/**/**/**/**/**/**/node_modules/**
