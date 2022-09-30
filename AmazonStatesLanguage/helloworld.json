@@ -1,0 +1,16 @@
+{
+    "StartAt": "Hello",
+    "States": {
+        "Hello": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:REGION:ACCOUND_ID:function:hello",
+            "Next": "World"
+        },
+        "World": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:world",
+            "End": true
+        }
+    }
+    
+}

@@ -21,6 +21,11 @@ aws iam list-users
  aws ec2 describe-instances
 ```
 
+## Glossary
+
+1. ARN - Amazon Resource Name
+1. ASL - Amazon State Language
+
 
 
 
