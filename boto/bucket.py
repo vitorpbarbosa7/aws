@@ -1,22 +1,59 @@
 import boto3
+from pprint import pprint
+import json
+import pandas as pd
+from IPython.display import display
 
-s3 = boto3.resource('s3')
+def write_json(object, path_file:str):
+    json_object = json.dumps(object, indent=4, default=str)
+    with open(path_file, 'w') as file:
+        file.write(json_object)
+
 
 BUCKET = 'vpb-spark-bucket'
-PREFIX = 'iris'
-
-my_bucket = s3.Bucket(BUCKET)
+FILE = 'iris.csv'
 
 s3_client = boto3.client('s3')
 
-result = s3_client.list_objects(Bucket = BUCKET, Prefix = PREFIX)
+results = s3_client.list_objects(Bucket = BUCKET)
 
-print(result)
+write_json(results, 'parsed_response.json')
 
-for object in result.get('Contents'):
-    data = s3_client.get_object(Bucket = BUCKET, Key = object.get('Key'))
-    contents = data['Body'].read()
-    print(contents.decode('utf-8'))
+contents = results['Contents']
+
+write_json(contents, 'contents.json')
+
+data_key = 'iris.csv'
+
+data_body = s3_client.get_object(Bucket = BUCKET, Key = data_key)
+# print(data_body)
+df = pd.read_csv(data_body['Body'])
+display(df.head())
+
+# df = pd.read_csv(data_read.decode('utf-8'))
+# print(type(df))
+# print(df)
+
+
+
+
+# prefix_one_object = s3_client.list_objects(Bucket = BUCKET, Prefix = FILE)
+
+# for object in prefix_one_object.get('Contents'):
+#     print(type(object))
+#     print(object)
+
+#     key = object.get('Key')
+#     print(type(key))
+#     print(key)
+#     data = s3_client.get_object(Bucket = BUCKET, Key = key)
+#     print(data)
+#     print(type(data))
+    
+    # contents = data['Body'].read()
+    # contents.decode('utf-8')
+
+
 
 # for my_bucket_object in my_bucket.objects.all():
 #     print(my_bucket_object)

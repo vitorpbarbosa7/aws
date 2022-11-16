@@ -1,0 +1,57 @@
+[
+    {
+        "Key": "iris.csv",
+        "LastModified": "2022-11-16 11:32:01+00:00",
+        "ETag": "\"5da21954f9d711282beec6ed65c08980\"",
+        "Size": 3978,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    },
+    {
+        "Key": "movie_similarity.py",
+        "LastModified": "2022-11-06 15:56:38+00:00",
+        "ETag": "\"991d2565226636a767f08260fd6825e1\"",
+        "Size": 3586,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    },
+    {
+        "Key": "movies.dat",
+        "LastModified": "2022-11-06 15:15:35+00:00",
+        "ETag": "\"ef9fd9ff8d1b33faf73e2122c371e910\"",
+        "Size": 171308,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    },
+    {
+        "Key": "ratings.dat",
+        "LastModified": "2022-11-06 15:15:33+00:00",
+        "ETag": "\"d41ff57f03161e2168843bb9221c883f-2\"",
+        "Size": 24594131,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    },
+    {
+        "Key": "ratings_sample.dat",
+        "LastModified": "2022-11-06 15:15:34+00:00",
+        "ETag": "\"9c624003c1991ef9431a83d1c170cf25\"",
+        "Size": 596589,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    }
+]

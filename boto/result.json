@@ -1,0 +1,36 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "3C4C991P0EKTRJBN",
+        "HostId": "Aw/3Fh0kXKkMoVgxVkO/42jRhoD0BHqt3knnTEePBZ2jzSR3pQfHLMtIN+QsU0KfTYSisLngKHI=",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amz-id-2": "Aw/3Fh0kXKkMoVgxVkO/42jRhoD0BHqt3knnTEePBZ2jzSR3pQfHLMtIN+QsU0KfTYSisLngKHI=",
+            "x-amz-request-id": "3C4C991P0EKTRJBN",
+            "date": "Wed, 16 Nov 2022 21:30:36 GMT",
+            "x-amz-bucket-region": "sa-east-1",
+            "content-type": "application/xml",
+            "transfer-encoding": "chunked",
+            "server": "AmazonS3"
+        },
+        "RetryAttempts": 0
+    },
+    "IsTruncated": false,
+    "Marker": "",
+    "Contents": [
+        {
+            "Key": "iris.csv",
+            "LastModified": "2022-11-16 11:32:01+00:00",
+            "ETag": "\"5da21954f9d711282beec6ed65c08980\"",
+            "Size": 3978,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "DisplayName": "vitor.pereira.barbosa",
+                "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+            }
+        }
+    ],
+    "Name": "vpb-spark-bucket",
+    "Prefix": "iris.csv",
+    "MaxKeys": 1000,
+    "EncodingType": "url"
+}
