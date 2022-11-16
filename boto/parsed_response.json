@@ -1,12 +1,12 @@
 {
     "ResponseMetadata": {
-        "RequestId": "SZ1A2V1W77GJP9WK",
-        "HostId": "Mo1Fs1nLCcEW/n3MNtgpC9GGONR35eoa9Ur0NvU3gUqA0KxgzidzAoqCMe++KqiDlygPpHZGnE0=",
+        "RequestId": "7D7YHWE8CBDFXYNQ",
+        "HostId": "J0+1cCNU/TDzr/n3wbu+udL6/9FXaHGA0MdS5WFirKig18WA/sUODoCqX5Axb7a7yLrv9y7yOV4LdLsn5nb77g==",
         "HTTPStatusCode": 200,
         "HTTPHeaders": {
-            "x-amz-id-2": "Mo1Fs1nLCcEW/n3MNtgpC9GGONR35eoa9Ur0NvU3gUqA0KxgzidzAoqCMe++KqiDlygPpHZGnE0=",
-            "x-amz-request-id": "SZ1A2V1W77GJP9WK",
-            "date": "Wed, 16 Nov 2022 21:49:27 GMT",
+            "x-amz-id-2": "J0+1cCNU/TDzr/n3wbu+udL6/9FXaHGA0MdS5WFirKig18WA/sUODoCqX5Axb7a7yLrv9y7yOV4LdLsn5nb77g==",
+            "x-amz-request-id": "7D7YHWE8CBDFXYNQ",
+            "date": "Wed, 16 Nov 2022 22:07:10 GMT",
             "x-amz-bucket-region": "sa-east-1",
             "content-type": "application/xml",
             "transfer-encoding": "chunked",
@@ -22,6 +22,17 @@
             "LastModified": "2022-11-16 11:32:01+00:00",
             "ETag": "\"5da21954f9d711282beec6ed65c08980\"",
             "Size": 3978,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "DisplayName": "vitor.pereira.barbosa",
+                "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+            }
+        },
+        {
+            "Key": "iris.parquet",
+            "LastModified": "2022-11-16 22:06:09+00:00",
+            "ETag": "\"35f2f6bf062a453b15ee064da0223b23\"",
+            "Size": 4971,
             "StorageClass": "STANDARD",
             "Owner": {
                 "DisplayName": "vitor.pereira.barbosa",

@@ -11,6 +11,17 @@
         }
     },
     {
+        "Key": "iris.parquet",
+        "LastModified": "2022-11-16 22:06:09+00:00",
+        "ETag": "\"35f2f6bf062a453b15ee064da0223b23\"",
+        "Size": 4971,
+        "StorageClass": "STANDARD",
+        "Owner": {
+            "DisplayName": "vitor.pereira.barbosa",
+            "ID": "ffb479c26c5e840bf19fb1173afa67aaef1a4b05f23d940b36f8972e1cc62de7"
+        }
+    },
+    {
         "Key": "movie_similarity.py",
         "LastModified": "2022-11-06 15:56:38+00:00",
         "ETag": "\"991d2565226636a767f08260fd6825e1\"",
