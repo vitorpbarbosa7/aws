@@ -1,0 +1,24 @@
+{
+    "Comment": "A Hello World example of the Amazon State Language using a Pass state",
+    "StartAt": "WaitForSomeTime",
+    "States": {
+      "WaitForSomeTime": {
+        "Comment": "wait",
+        "Type": "Wait",
+        "Seconds": 5,
+        "Next": "WaitAgain"
+      },
+      "WaitAgain": {
+        "Comment": "wait again",
+        "Type": "Wait",
+        "Seconds": 10,
+        "Next": "HelloWorld"
+      },
+      "HelloWorld": {
+        "Comment": "Hello World State",
+        "Type": "Pass",
+        "Result": "Hello World!",
+        "End": true
+      }
+    }
+  }

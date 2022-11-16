@@ -2,6 +2,7 @@
     "StartAt": "Requester",
     "States": {
         "Requester": {
+            "Comment": "Requests the resource",
             "Type": "Task",
             "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:WORKFLOW_NAME_requester",
             "Next": "Manager"
