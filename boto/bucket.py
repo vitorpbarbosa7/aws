@@ -9,7 +9,6 @@ def write_json(object, path_file:str):
     with open(path_file, 'w') as file:
         file.write(json_object)
 
-
 BUCKET = 'vpb-spark-bucket'
 FILE = 'iris.csv'
 
@@ -25,10 +24,21 @@ write_json(contents, 'contents.json')
 
 data_key = 'iris.csv'
 
-data_body = s3_client.get_object(Bucket = BUCKET, Key = data_key)
-# print(data_body)
-df = pd.read_csv(data_body['Body'])
+def read_csv(bucket, bucket_path, s3_client):
+    data_body = s3_client.get_object(Bucket = bucket, Key = bucket_path)
+    df = pd.read_csv(data_body['Body'])
+    return df
+df = read_csv(BUCKET, FILE, s3_client)    
 display(df.head())
+
+
+def read_parquet(bucket, bucket_path, s3_client):
+    data_body = s3_client.get_object(Bucket = bucket, Key = bucket_path)
+    df = pd.read_parquet(data_body['Body'])
+    return df
+df_parquet = read_parquet(BUCKET, 'iris.parquet', s3_client)
+display(df_parquet.head())
+    
 
 # df = pd.read_csv(data_read.decode('utf-8'))
 # print(type(df))
